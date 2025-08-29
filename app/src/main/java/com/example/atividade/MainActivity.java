@@ -103,7 +103,6 @@ public class MainActivity extends AppCompatActivity {
 
             String total = String.format("Valor total: " + valorTotal);
 
-            System.out.println(total);
 
             txtFinalizar.setText(total);
 
