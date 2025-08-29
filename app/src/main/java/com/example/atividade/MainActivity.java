@@ -89,8 +89,6 @@ public class MainActivity extends AppCompatActivity {
                 valorTotal = valorTotal + 0.50;
             }
 
-            System.out.println(spnPao.getSelectedItemPosition());
-
             switch (spnPao.getSelectedItemPosition()){
                 case 0:
                     valorTotal = valorTotal + 3.0;
